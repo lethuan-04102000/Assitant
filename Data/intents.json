@@ -1,0 +1,49 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Chào ban", "Xin chào", "Bạn ơi", "Ban o dau r", "Giup toi mot xiu"],
+            "responses": ["1"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Tạm biệt", "Thôi nha", "Dừng lại đi", "Goodbye", "bye"],
+            "responses": ["2"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Cảm ơn bạn", "Cảm ơn", "Tuyệt quá"],
+            "responses": ["3"]
+        },
+        {
+            "tag": "health",
+            "patterns": ["Bạn khỏe không", "Bạn ổn không", "Bạn vẫn ổn chứ", "Ổn chứ", "Ổn không"],
+            "responses": ["4"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["Tên bạn là gì", "Tên gì thế", "Tên gì vậy", "Chưa biết bạn", "Bạn tên gì"],
+            "responses": ["5"]
+        },
+        {
+            "tag": "handsome",
+            "patterns": ["Thấy tôi thế nào", "Tôi đẹp trai không", "Tôi xinh không", "Đẹp trai không", "Đẹp gái", "Đẹp trai"],
+            "responses": ["6"]
+        },
+        {
+            "tag": "health2",
+            "patterns": ["Tôi bị ốm", "Tôi không được khỏe", "Không khỏe", "Mệt quá", "Đang đi viện", "Tôi mệt mỏi quá"],
+            "responses": ["7"]
+        },
+        {
+            "tag": "make",
+            "patterns": ["Bạn do ai tạo", "Ai tạo ra bạn", "Người tạo ra bạn"],
+            "responses": ["8"]
+        },
+        {
+            "tag": "name2",
+            "patterns": ["Tôi là ai", "Tôi tên là gì", "Tên tôi là gì thế"],
+            "responses": ["9"]
+        }
+
+    ]
+}
